@@ -3,11 +3,11 @@
 
     <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
-            <pattern>cdp-event-service: %d{HH:mm:ss.SSS} [%thread] %-5level %-50logger{50} - %msg%n</pattern>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %-50logger{50} - %msg%n</pattern>
         </encoder>
     </appender>
 
-    <root level="DEBUG">
+    <root level="INFO">
         <appender-ref ref="console" />
     </root>
 
